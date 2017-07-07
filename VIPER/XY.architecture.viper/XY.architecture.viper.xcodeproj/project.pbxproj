@@ -14,6 +14,26 @@
 		2B4BF9E11F039131008D9A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BF9DF1F039131008D9A99 /* LaunchScreen.storyboard */; };
 		2B4BF9EC1F039131008D9A99 /* XY_architecture_viperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF9EB1F039131008D9A99 /* XY_architecture_viperTests.swift */; };
 		2B4BF9F71F039131008D9A99 /* XY_architecture_viperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BF9F61F039131008D9A99 /* XY_architecture_viperUITests.swift */; };
+		2B87E4781F0F8E0B005796E4 /* XYViperProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4771F0F8E0B005796E4 /* XYViperProtocols.swift */; };
+		2B87E4871F0F8F20005796E4 /* MainModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4861F0F8F20005796E4 /* MainModuleInterface.swift */; };
+		2B87E4891F0F8F64005796E4 /* LoginModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4881F0F8F64005796E4 /* LoginModuleInterface.swift */; };
+		2B87E48B1F0F8F7D005796E4 /* RegisterModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E48A1F0F8F7D005796E4 /* RegisterModuleInterface.swift */; };
+		2B87E48D1F0F8F9B005796E4 /* RegisterModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E48C1F0F8F9B005796E4 /* RegisterModuleDelegate.swift */; };
+		2B87E48F1F0F8FB4005796E4 /* LoginModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E48E1F0F8FB4005796E4 /* LoginModuleDelegate.swift */; };
+		2B87E4911F0F8FC3005796E4 /* MainModuleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4901F0F8FC3005796E4 /* MainModuleDelegate.swift */; };
+		2B87E4931F0F901C005796E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4921F0F901C005796E4 /* LoginViewController.swift */; };
+		2B87E4951F0F9047005796E4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4941F0F9047005796E4 /* RegisterViewController.swift */; };
+		2B87E4971F0F9063005796E4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4961F0F9063005796E4 /* MainViewController.swift */; };
+		2B87E4991F0F90C9005796E4 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4981F0F90C9005796E4 /* RegisterPresenter.swift */; };
+		2B87E49B1F0F90E9005796E4 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E49A1F0F90E9005796E4 /* LoginPresenter.swift */; };
+		2B87E49D1F0F9109005796E4 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E49C1F0F9109005796E4 /* MainPresenter.swift */; };
+		2B87E49F1F0F9136005796E4 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E49E1F0F9136005796E4 /* RegisterInteractor.swift */; };
+		2B87E4A11F0F914C005796E4 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4A01F0F914C005796E4 /* LoginInteractor.swift */; };
+		2B87E4A31F0F9168005796E4 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4A21F0F9168005796E4 /* MainInteractor.swift */; };
+		2B87E4A51F0F9194005796E4 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4A41F0F9194005796E4 /* RegisterRouter.swift */; };
+		2B87E4A71F0F91A4005796E4 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4A61F0F91A4005796E4 /* LoginRouter.swift */; };
+		2B87E4A91F0F91B9005796E4 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4A81F0F91B9005796E4 /* MainRouter.swift */; };
+		2B87E4AC1F0F920A005796E4 /* AppDelegateDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B87E4AB1F0F920A005796E4 /* AppDelegateDependency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,26 @@
 		2B4BF9F21F039131008D9A99 /* XY.architecture.viperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XY.architecture.viperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B4BF9F61F039131008D9A99 /* XY_architecture_viperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XY_architecture_viperUITests.swift; sourceTree = "<group>"; };
 		2B4BF9F81F039131008D9A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B87E4771F0F8E0B005796E4 /* XYViperProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYViperProtocols.swift; sourceTree = "<group>"; };
+		2B87E4861F0F8F20005796E4 /* MainModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleInterface.swift; sourceTree = "<group>"; };
+		2B87E4881F0F8F64005796E4 /* LoginModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleInterface.swift; sourceTree = "<group>"; };
+		2B87E48A1F0F8F7D005796E4 /* RegisterModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModuleInterface.swift; sourceTree = "<group>"; };
+		2B87E48C1F0F8F9B005796E4 /* RegisterModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterModuleDelegate.swift; sourceTree = "<group>"; };
+		2B87E48E1F0F8FB4005796E4 /* LoginModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModuleDelegate.swift; sourceTree = "<group>"; };
+		2B87E4901F0F8FC3005796E4 /* MainModuleDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainModuleDelegate.swift; sourceTree = "<group>"; };
+		2B87E4921F0F901C005796E4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2B87E4941F0F9047005796E4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2B87E4961F0F9063005796E4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2B87E4981F0F90C9005796E4 /* RegisterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		2B87E49A1F0F90E9005796E4 /* LoginPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		2B87E49C1F0F9109005796E4 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		2B87E49E1F0F9136005796E4 /* RegisterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		2B87E4A01F0F914C005796E4 /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		2B87E4A21F0F9168005796E4 /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		2B87E4A41F0F9194005796E4 /* RegisterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		2B87E4A61F0F91A4005796E4 /* LoginRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		2B87E4A81F0F91B9005796E4 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		2B87E4AB1F0F920A005796E4 /* AppDelegateDependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateDependency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +137,10 @@
 		2B4BF9D51F039131008D9A99 /* XY.architecture.viper */ = {
 			isa = PBXGroup;
 			children = (
+				2B87E4AA1F0F91D9005796E4 /* ViperCore */,
+				2B87E4791F0F8E56005796E4 /* Modules */,
 				2B4BF9D61F039131008D9A99 /* AppDelegate.swift */,
+				2B87E4AB1F0F920A005796E4 /* AppDelegateDependency.swift */,
 				2B4BF9D81F039131008D9A99 /* ViewController.swift */,
 				2B4BF9DA1F039131008D9A99 /* Main.storyboard */,
 				2B4BF9DD1F039131008D9A99 /* Assets.xcassets */,
@@ -123,6 +166,135 @@
 				2B4BF9F81F039131008D9A99 /* Info.plist */,
 			);
 			path = XY.architecture.viperUITests;
+			sourceTree = "<group>";
+		};
+		2B87E4791F0F8E56005796E4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E47C1F0F8E79005796E4 /* Register */,
+				2B87E47B1F0F8E74005796E4 /* Login */,
+				2B87E47A1F0F8E6C005796E4 /* Main */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		2B87E47A1F0F8E6C005796E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4851F0F8EF5005796E4 /* User Interface */,
+				2B87E4841F0F8EEF005796E4 /* Module Interface */,
+				2B87E4831F0F8EE7005796E4 /* Application Logic */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2B87E47B1F0F8E74005796E4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4821F0F8EE0005796E4 /* Application Logic */,
+				2B87E4811F0F8ED1005796E4 /* Module Interface */,
+				2B87E4801F0F8ECA005796E4 /* User Interface */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2B87E47C1F0F8E79005796E4 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E47F1F0F8E9F005796E4 /* User Interface */,
+				2B87E47E1F0F8E8E005796E4 /* Module Interface */,
+				2B87E47D1F0F8E85005796E4 /* Application Logic */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		2B87E47D1F0F8E85005796E4 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E49E1F0F9136005796E4 /* RegisterInteractor.swift */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		2B87E47E1F0F8E8E005796E4 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E48A1F0F8F7D005796E4 /* RegisterModuleInterface.swift */,
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		2B87E47F1F0F8E9F005796E4 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E48C1F0F8F9B005796E4 /* RegisterModuleDelegate.swift */,
+				2B87E4941F0F9047005796E4 /* RegisterViewController.swift */,
+				2B87E4981F0F90C9005796E4 /* RegisterPresenter.swift */,
+				2B87E4A41F0F9194005796E4 /* RegisterRouter.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		2B87E4801F0F8ECA005796E4 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4921F0F901C005796E4 /* LoginViewController.swift */,
+				2B87E48E1F0F8FB4005796E4 /* LoginModuleDelegate.swift */,
+				2B87E49A1F0F90E9005796E4 /* LoginPresenter.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		2B87E4811F0F8ED1005796E4 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4881F0F8F64005796E4 /* LoginModuleInterface.swift */,
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		2B87E4821F0F8EE0005796E4 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4A01F0F914C005796E4 /* LoginInteractor.swift */,
+				2B87E4A61F0F91A4005796E4 /* LoginRouter.swift */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		2B87E4831F0F8EE7005796E4 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4A21F0F9168005796E4 /* MainInteractor.swift */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		2B87E4841F0F8EEF005796E4 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4861F0F8F20005796E4 /* MainModuleInterface.swift */,
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		2B87E4851F0F8EF5005796E4 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4901F0F8FC3005796E4 /* MainModuleDelegate.swift */,
+				2B87E4961F0F9063005796E4 /* MainViewController.swift */,
+				2B87E49C1F0F9109005796E4 /* MainPresenter.swift */,
+				2B87E4A81F0F91B9005796E4 /* MainRouter.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		2B87E4AA1F0F91D9005796E4 /* ViperCore */ = {
+			isa = PBXGroup;
+			children = (
+				2B87E4771F0F8E0B005796E4 /* XYViperProtocols.swift */,
+			);
+			name = ViperCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +431,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B87E4A11F0F914C005796E4 /* LoginInteractor.swift in Sources */,
+				2B87E48B1F0F8F7D005796E4 /* RegisterModuleInterface.swift in Sources */,
+				2B87E4951F0F9047005796E4 /* RegisterViewController.swift in Sources */,
+				2B87E49B1F0F90E9005796E4 /* LoginPresenter.swift in Sources */,
+				2B87E49F1F0F9136005796E4 /* RegisterInteractor.swift in Sources */,
+				2B87E4A31F0F9168005796E4 /* MainInteractor.swift in Sources */,
+				2B87E4871F0F8F20005796E4 /* MainModuleInterface.swift in Sources */,
+				2B87E4971F0F9063005796E4 /* MainViewController.swift in Sources */,
+				2B87E4A91F0F91B9005796E4 /* MainRouter.swift in Sources */,
+				2B87E4AC1F0F920A005796E4 /* AppDelegateDependency.swift in Sources */,
 				2B4BF9D91F039131008D9A99 /* ViewController.swift in Sources */,
+				2B87E48D1F0F8F9B005796E4 /* RegisterModuleDelegate.swift in Sources */,
 				2B4BF9D71F039131008D9A99 /* AppDelegate.swift in Sources */,
+				2B87E4991F0F90C9005796E4 /* RegisterPresenter.swift in Sources */,
+				2B87E4781F0F8E0B005796E4 /* XYViperProtocols.swift in Sources */,
+				2B87E49D1F0F9109005796E4 /* MainPresenter.swift in Sources */,
+				2B87E4911F0F8FC3005796E4 /* MainModuleDelegate.swift in Sources */,
+				2B87E4A51F0F9194005796E4 /* RegisterRouter.swift in Sources */,
+				2B87E48F1F0F8FB4005796E4 /* LoginModuleDelegate.swift in Sources */,
+				2B87E4931F0F901C005796E4 /* LoginViewController.swift in Sources */,
+				2B87E4A71F0F91A4005796E4 /* LoginRouter.swift in Sources */,
+				2B87E4891F0F8F64005796E4 /* LoginModuleInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +699,7 @@
 				2B4BF9FD1F039131008D9A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B4BF9FE1F039131008D9A99 /* Build configuration list for PBXNativeTarget "XY.architecture.viperTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +708,7 @@
 				2B4BFA001F039131008D9A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B4BFA011F039131008D9A99 /* Build configuration list for PBXNativeTarget "XY.architecture.viperUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +717,7 @@
 				2B4BFA031F039131008D9A99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
