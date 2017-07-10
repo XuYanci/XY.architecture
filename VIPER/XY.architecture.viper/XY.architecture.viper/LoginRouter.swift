@@ -10,4 +10,7 @@ import UIKit
 
 class LoginRouter:RouterInterface {
     var presenter: PresenterInterface?
+    func presentLoginInterfaceFromViewController(viewController: UIViewController) -> Void {
+        
+    }
 }

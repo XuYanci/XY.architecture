@@ -10,4 +10,8 @@ import UIKit
 
 class RegisterRouter:RouterInterface {
     var presenter: PresenterInterface?
+    
+    func presentRegisterInterfaceFromViewController(viewController: UIViewController) -> Void {
+        
+    }
 }

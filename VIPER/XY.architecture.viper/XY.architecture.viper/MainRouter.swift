@@ -14,18 +14,27 @@ class MainRouter:RouterInterface {
     var registerRouter:RegisterRouter?
     var loginRouter:LoginRouter?
     var rootRouter:RootRouter?
+    var mainViewController:MainViewController?
     
+    // 展示主界面
     func presentMainInterfaceFromWindow(window:UIWindow) {
-        
+        let viewController = mainViewControllerFromStoryboard()
+        viewController.presenter = presenter
+        mainViewController = viewController
+        presenter?.viewer = viewController
+        rootRouter?.showRootViewController(viewController: viewController, inWindow: window)
     }
     
+    // 展示登录界面
     func presentLoginInterface() {
-        
+        loginRouter?.presentLoginInterfaceFromViewController(viewController: mainViewController!)
     }
     
+    // 展示注册界面
     func presentRegisterInterface() {
-        
+        registerRouter?.presentRegisterInterfaceFromViewController(viewController: mainViewController!)
     }
+    
     
     func loginViewControllerFromStoryboard() -> LoginViewController {
         let viewController = LoginViewController()

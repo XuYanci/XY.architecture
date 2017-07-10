@@ -8,6 +8,6 @@
 
 import UIKit
 
-class IndexInteractor: NSObject {
-
+class IndexInteractor: InteractorInterface {
+    var presenter: PresenterInterface?
 }

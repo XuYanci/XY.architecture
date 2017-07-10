@@ -8,6 +8,8 @@
 
 import UIKit
 
-class IndexPresenter: NSObject {
-
+class IndexPresenter: PresenterInterface {
+    var router: RouterInterface?
+    var interactor: InteractorInterface?
+    var viewer: ViewInterface?
 }

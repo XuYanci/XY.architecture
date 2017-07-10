@@ -8,6 +8,7 @@
 
 import UIKit
 
-class IndexRouter: NSObject {
-
+class IndexRouter: RouterInterface {
+    var presenter: PresenterInterface?
+    
 }

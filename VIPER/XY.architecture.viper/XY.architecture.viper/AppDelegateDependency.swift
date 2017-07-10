@@ -17,7 +17,7 @@ class AppDelegateDependency {
     }
     
     func installRootViewControllerIntoWindow(window: UIWindow) {
-        
+        mainRouter.presentMainInterfaceFromWindow(window: window)
     }
     
     // MARK: First config every module  R , P , I 
@@ -43,18 +43,40 @@ class AppDelegateDependency {
         let mainPresenter = MainPresenter()
         let mainInteractor = MainInteractor()
         
+        mainPresenter.interactor = mainInteractor
+        mainInteractor.presenter = mainPresenter
+        
         
         // Setup register
         let registerRouter =
             RegisterRouter()
         let registerPresenter = RegisterPresenter()
         let registerInteractor = RegisterInteractor()
-      
         
+        // R P
+        registerRouter.presenter = registerPresenter
+        // P R
+        registerPresenter.router = registerRouter
+        // P I
+        registerPresenter.interactor = registerInteractor
+        // I P
+        registerInteractor.presenter = registerPresenter
+       
+        
+      
         // Set up login
         let loginRouter = LoginRouter()
         let loginPresenter = LoginPresenter()
         let loginInteractor = LoginInteractor()
+        
+        // R P
+        loginRouter.presenter = loginPresenter
+        // P R
+        loginPresenter.router = loginRouter
+        // P I
+        loginPresenter.interactor = loginInteractor
+        // I P
+        loginInteractor.presenter = loginPresenter
         
         
         // Set up index
@@ -62,7 +84,14 @@ class AppDelegateDependency {
         let indexPresenter = IndexPresenter()
         let indexInteractor = IndexInteractor()
         
-        
+        // R P
+        indexRouter.presenter = indexPresenter
+        // P R
+        indexPresenter.router = indexRouter
+        // P I
+        indexPresenter.interactor = indexInteractor
+        // I P
+        indexInteractor.presenter = indexPresenter
         
         
         
