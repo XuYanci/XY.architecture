@@ -38,6 +38,15 @@
 		5A3D14C50FED5D33AF618B5E /* Pods_defaults_XY_architecture_viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B1B62518285B775BDC652 /* Pods_defaults_XY_architecture_viper.framework */; };
 		AD4966171F11C0D7003BFC1B /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4966161F11C0D7003BFC1B /* LoginInteractor.swift */; };
 		AD79FDC41F1267370027F94E /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDC31F1267370027F94E /* RootRouter.swift */; };
+		AD79FDC61F130B430027F94E /* RegisterDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDC51F130B430027F94E /* RegisterDataManager.swift */; };
+		AD79FDC81F130B4F0027F94E /* LoginDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDC71F130B4F0027F94E /* LoginDataManager.swift */; };
+		AD79FDCA1F130B5C0027F94E /* MainDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDC91F130B5C0027F94E /* MainDataManager.swift */; };
+		AD79FDCC1F130BED0027F94E /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDCB1F130BED0027F94E /* CoreDataStore.swift */; };
+		AD79FDD21F130D5A0027F94E /* IndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDD11F130D5A0027F94E /* IndexViewController.swift */; };
+		AD79FDD41F130D6D0027F94E /* IndexRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDD31F130D6D0027F94E /* IndexRouter.swift */; };
+		AD79FDD61F130D770027F94E /* IndexPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDD51F130D770027F94E /* IndexPresenter.swift */; };
+		AD79FDD81F130D850027F94E /* IndexInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDD71F130D850027F94E /* IndexInteractor.swift */; };
+		AD79FDDA1F130D960027F94E /* IndexDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79FDD91F130D960027F94E /* IndexDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +106,15 @@
 		8C2D3B0C1CB23C473CB9D665 /* Pods-defaults-XY.architecture.viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XY.architecture.viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XY.architecture.viper/Pods-defaults-XY.architecture.viper.debug.xcconfig"; sourceTree = "<group>"; };
 		AD4966161F11C0D7003BFC1B /* LoginInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
 		AD79FDC31F1267370027F94E /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		AD79FDC51F130B430027F94E /* RegisterDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDataManager.swift; sourceTree = "<group>"; };
+		AD79FDC71F130B4F0027F94E /* LoginDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginDataManager.swift; sourceTree = "<group>"; };
+		AD79FDC91F130B5C0027F94E /* MainDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDataManager.swift; sourceTree = "<group>"; };
+		AD79FDCB1F130BED0027F94E /* CoreDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
+		AD79FDD11F130D5A0027F94E /* IndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexViewController.swift; sourceTree = "<group>"; };
+		AD79FDD31F130D6D0027F94E /* IndexRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexRouter.swift; sourceTree = "<group>"; };
+		AD79FDD51F130D770027F94E /* IndexPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexPresenter.swift; sourceTree = "<group>"; };
+		AD79FDD71F130D850027F94E /* IndexInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexInteractor.swift; sourceTree = "<group>"; };
+		AD79FDD91F130D960027F94E /* IndexDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexDataManager.swift; sourceTree = "<group>"; };
 		AE6233324B766DFAD35C8563 /* Pods-defaults-XY.architecture.viperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XY.architecture.viperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XY.architecture.viperUITests/Pods-defaults-XY.architecture.viperUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B58B1B62518285B775BDC652 /* Pods_defaults_XY_architecture_viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_defaults_XY_architecture_viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9E0575FF1FE6DD97D20188 /* Pods-defaults-XY.architecture.viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-defaults-XY.architecture.viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-defaults-XY.architecture.viper/Pods-defaults-XY.architecture.viper.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,6 +219,7 @@
 		2B87E4791F0F8E56005796E4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				AD79FDCD1F130D310027F94E /* Index */,
 				2B87E47C1F0F8E79005796E4 /* Register */,
 				2B87E47B1F0F8E74005796E4 /* Login */,
 				2B87E47A1F0F8E6C005796E4 /* Main */,
@@ -242,6 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				2B87E49E1F0F9136005796E4 /* RegisterInteractor.swift */,
+				AD79FDC51F130B430027F94E /* RegisterDataManager.swift */,
 			);
 			name = "Application Logic";
 			sourceTree = "<group>";
@@ -288,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				AD4966161F11C0D7003BFC1B /* LoginInteractor.swift */,
+				AD79FDC71F130B4F0027F94E /* LoginDataManager.swift */,
 			);
 			name = "Application Logic";
 			sourceTree = "<group>";
@@ -296,6 +317,7 @@
 			isa = PBXGroup;
 			children = (
 				2B87E4A21F0F9168005796E4 /* MainInteractor.swift */,
+				AD79FDC91F130B5C0027F94E /* MainDataManager.swift */,
 			);
 			name = "Application Logic";
 			sourceTree = "<group>";
@@ -363,6 +385,7 @@
 		AD79FDC11F1267270027F94E /* Store */ = {
 			isa = PBXGroup;
 			children = (
+				AD79FDCB1F130BED0027F94E /* CoreDataStore.swift */,
 			);
 			name = Store;
 			sourceTree = "<group>";
@@ -373,6 +396,42 @@
 				AD79FDC31F1267370027F94E /* RootRouter.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		AD79FDCD1F130D310027F94E /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				AD79FDD01F130D420027F94E /* Application Logic */,
+				AD79FDCF1F130D3C0027F94E /* Module Interface */,
+				AD79FDCE1F130D350027F94E /* User Interface */,
+			);
+			name = Index;
+			sourceTree = "<group>";
+		};
+		AD79FDCE1F130D350027F94E /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				AD79FDD11F130D5A0027F94E /* IndexViewController.swift */,
+				AD79FDD31F130D6D0027F94E /* IndexRouter.swift */,
+				AD79FDD51F130D770027F94E /* IndexPresenter.swift */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		AD79FDCF1F130D3C0027F94E /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Module Interface";
+			sourceTree = "<group>";
+		};
+		AD79FDD01F130D420027F94E /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				AD79FDD71F130D850027F94E /* IndexInteractor.swift */,
+				AD79FDD91F130D960027F94E /* IndexDataManager.swift */,
+			);
+			name = "Application Logic";
 			sourceTree = "<group>";
 		};
 		AE00083B5FAE60DA7F8EFA4B /* Pods */ = {
@@ -671,19 +730,27 @@
 			files = (
 				2B87E48B1F0F8F7D005796E4 /* RegisterModuleInterface.swift in Sources */,
 				2B87E4951F0F9047005796E4 /* RegisterViewController.swift in Sources */,
+				AD79FDD81F130D850027F94E /* IndexInteractor.swift in Sources */,
 				2B87E49B1F0F90E9005796E4 /* LoginPresenter.swift in Sources */,
+				AD79FDC81F130B4F0027F94E /* LoginDataManager.swift in Sources */,
 				2B87E49F1F0F9136005796E4 /* RegisterInteractor.swift in Sources */,
 				2B87E4A31F0F9168005796E4 /* MainInteractor.swift in Sources */,
 				2B87E4871F0F8F20005796E4 /* MainModuleInterface.swift in Sources */,
+				AD79FDC61F130B430027F94E /* RegisterDataManager.swift in Sources */,
 				2B87E4971F0F9063005796E4 /* MainViewController.swift in Sources */,
 				2B87E4A91F0F91B9005796E4 /* MainRouter.swift in Sources */,
 				2B87E4AC1F0F920A005796E4 /* AppDelegateDependency.swift in Sources */,
 				2B4BF9D91F039131008D9A99 /* ViewController.swift in Sources */,
+				AD79FDCA1F130B5C0027F94E /* MainDataManager.swift in Sources */,
 				2B87E48D1F0F8F9B005796E4 /* RegisterModuleDelegate.swift in Sources */,
 				2B4BF9D71F039131008D9A99 /* AppDelegate.swift in Sources */,
+				AD79FDD61F130D770027F94E /* IndexPresenter.swift in Sources */,
 				AD4966171F11C0D7003BFC1B /* LoginInteractor.swift in Sources */,
 				2B87E4991F0F90C9005796E4 /* RegisterPresenter.swift in Sources */,
 				2B87E4781F0F8E0B005796E4 /* XYViperProtocols.swift in Sources */,
+				AD79FDCC1F130BED0027F94E /* CoreDataStore.swift in Sources */,
+				AD79FDD41F130D6D0027F94E /* IndexRouter.swift in Sources */,
+				AD79FDD21F130D5A0027F94E /* IndexViewController.swift in Sources */,
 				2B87E49D1F0F9109005796E4 /* MainPresenter.swift in Sources */,
 				2B87E4911F0F8FC3005796E4 /* MainModuleDelegate.swift in Sources */,
 				AD79FDC41F1267370027F94E /* RootRouter.swift in Sources */,
@@ -691,6 +758,7 @@
 				2B87E48F1F0F8FB4005796E4 /* LoginModuleDelegate.swift in Sources */,
 				2B87E4931F0F901C005796E4 /* LoginViewController.swift in Sources */,
 				2B87E4A71F0F91A4005796E4 /* LoginRouter.swift in Sources */,
+				AD79FDDA1F130D960027F94E /* IndexDataManager.swift in Sources */,
 				2B87E4891F0F8F64005796E4 /* LoginModuleInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
