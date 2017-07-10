@@ -8,6 +8,19 @@
 
 import UIKit
 
-class AppDelegateDependency: NSObject {
-
+class AppDelegateDependency {
+    var rootRouter = RootRouter()
+    
+    init() {
+        configureDependencies()
+    }
+    
+    func installRootViewControllerIntoWindow(window: UIWindow) {
+        
+    }
+    
+    // MARK: First config every module  R , P , I , Second in R, Config V , P
+    func configureDependencies() {
+        
+    }
 }

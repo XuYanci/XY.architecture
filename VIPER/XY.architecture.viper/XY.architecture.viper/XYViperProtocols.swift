@@ -14,7 +14,7 @@ import UIKit
 //// D
 /// Application Logic -- can tdd
 
-/// Module Interface
+/// Module Interface - This what do in Router binding (Router configure v & p)
 //// Interface  --  can do what
 //// Delegate   --  do what
 
@@ -33,7 +33,16 @@ import UIKit
 //
 //
 
-/// Basic framework class
+// Just learning something: 
+
+// in the main method (applicationDidFinish) :
+// First config every module  R , P , I 
+// Second in R , Config V , P 
+
+// in the main method (applicationDidFinish) :
+// config every module VIPER releation in the R
+
+/// Module Interface not just between I & P , Perhaps P & P
 
 protocol ViewInterface:class {
     var presenter:PresenterInterface? { get set }
