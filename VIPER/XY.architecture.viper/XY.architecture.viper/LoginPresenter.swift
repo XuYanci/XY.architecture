@@ -12,6 +12,10 @@ class LoginPresenter: PresenterInterface,LoginModuleInterface {
     func login(username: String, password: String) {
         
     }
+    
+    func cancel() {
+         
+    }
     weak var moduleDelegate:LoginModuleDelegate?
     var router: RouterInterface?
     var interactor: InteractorInterface?

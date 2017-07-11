@@ -9,14 +9,13 @@
 import UIKit
 
 class MainViewController: UIViewController,MainModuleDelegate {
-
-
     
-    
+    // MARK: - Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,13 +25,13 @@ class MainViewController: UIViewController,MainModuleDelegate {
     
 
     @IBAction func clickOnLogin() {
-        if let p = presenter as? MainModuleInterface {
+        if let p = presenter as? MainPresenter {
             p.gotoLogin()
         }
     }
     
     @IBAction func clickOnRegister() {
-        if let p = presenter as? MainModuleInterface {
+        if let p = presenter as? MainPresenter {
             p.gotoRegister()
         }
     }
@@ -49,4 +48,5 @@ class MainViewController: UIViewController,MainModuleDelegate {
     }
     */
 
+    
 }

@@ -36,8 +36,12 @@ class LoginViewController: UIViewController ,LoginModuleDelegate{
             p.login(username: "abc", password: "12345")
         }
     }
-
     
+    @IBAction func clickCancel() {
+        if let p = presenter as? LoginModuleInterface {
+            p.cancel()
+        }
+    }
 
     /*
     // MARK: - Navigation

@@ -1,4 +1,4 @@
-//
+    //
 //  MainRouter.swift
 //  XY.architecture.viper
 //
@@ -36,19 +36,11 @@ class MainRouter:RouterInterface {
     }
     
     
-    func loginViewControllerFromStoryboard() -> LoginViewController {
-        let viewController = LoginViewController()
-        return viewController
-    }
-    
-    func registerViewControllerFromStoryboard() -> RegisterViewController {
-        let viewController = RegisterViewController()
-        return viewController
-    }
     
     func mainViewControllerFromStoryboard() -> MainViewController {
-        let viewController = MainViewController()
-        return viewController
+        let storyboard = mainStoryboard()
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: "Main") as! MainViewController
+        return mainViewController
     }
     
     func mainStoryboard()->UIStoryboard {

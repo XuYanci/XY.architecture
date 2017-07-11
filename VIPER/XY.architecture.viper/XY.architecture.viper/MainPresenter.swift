@@ -8,13 +8,17 @@
 
 import UIKit
 
-class MainPresenter:MainModuleInterface {
+class MainPresenter:PresenterInterface,MainModuleInterface {
     func gotoRegister() {
-        
+        if let r = router as? MainRouter {
+            r.presentRegisterInterface()
+        }
     }
     
     func gotoLogin() {
-        
+        if let r = router as? MainRouter {
+            r.presentLoginInterface()
+        }
     }
     weak var moduleDelegate:MainModuleDelegate?
     var router: RouterInterface?

@@ -9,5 +9,6 @@
 import UIKit
 
 protocol LoginModuleInterface: PresenterInterface {
- func login(username:String,password:String)
+    func login(username:String,password:String)
+    func cancel()
 }

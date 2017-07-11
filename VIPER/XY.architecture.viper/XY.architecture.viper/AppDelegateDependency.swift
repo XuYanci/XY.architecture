@@ -35,6 +35,7 @@ class AppDelegateDependency {
     // Register:
     // Registe success  -> go to main
     // Register fail
+
     
     func configureDependencies() {
        
@@ -43,10 +44,18 @@ class AppDelegateDependency {
         let mainPresenter = MainPresenter()
         let mainInteractor = MainInteractor()
         
+        // P R
+        mainPresenter.router = mainRouter
+        // R P
+        mainRouter.presenter = mainPresenter
+        // P I
         mainPresenter.interactor = mainInteractor
+
+        // I P
         mainInteractor.presenter = mainPresenter
-        
-        
+        // R  R
+        mainRouter.rootRouter = RootRouter()
+    
         // Setup register
         let registerRouter =
             RegisterRouter()
@@ -61,8 +70,6 @@ class AppDelegateDependency {
         registerPresenter.interactor = registerInteractor
         // I P
         registerInteractor.presenter = registerPresenter
-       
-        
       
         // Set up login
         let loginRouter = LoginRouter()
@@ -77,7 +84,6 @@ class AppDelegateDependency {
         loginPresenter.interactor = loginInteractor
         // I P
         loginInteractor.presenter = loginPresenter
-        
         
         // Set up index
         let indexRouter = IndexRouter()
@@ -94,6 +100,7 @@ class AppDelegateDependency {
         indexInteractor.presenter = indexPresenter
         
         
-        
+        mainRouter.loginRouter = loginRouter
+        mainRouter.registerRouter = registerRouter
     }
 }

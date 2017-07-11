@@ -35,6 +35,12 @@ class RegisterViewController: UIViewController,RegisterModuleDelegate {
         }
     }
     
+    @IBAction func clickOnCancel() {
+        if let p = presenter as? RegisterModuleInterface {
+            p.cancel()
+        }
+    }
+    
     var presenter: PresenterInterface?
 
     /*

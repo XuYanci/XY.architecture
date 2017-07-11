@@ -10,5 +10,5 @@ import UIKit
 
 protocol RegisterModuleInterface: PresenterInterface {
     func register(username:String,password:String)
-
+    func cancel()
 }

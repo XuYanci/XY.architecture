@@ -12,6 +12,10 @@ class RegisterPresenter: PresenterInterface,RegisterModuleInterface {
     func register(username: String, password: String) {
         
     }
+    
+    func cancel() {
+        
+    }
     weak var moduleDelegate:RegisterModuleDelegate?
     var router: RouterInterface?
     var interactor: InteractorInterface?

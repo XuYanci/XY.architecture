@@ -44,6 +44,7 @@ import UIKit
 
 /// Module Interface not just between I & P , Perhaps P & P
 
+
 protocol ViewInterface:class {
     var presenter:PresenterInterface? { get set }
     // P -> V
@@ -51,7 +52,6 @@ protocol ViewInterface:class {
 
 protocol InteractorInterface:class {
     var presenter:PresenterInterface? { get set }
-    
     // P -> I
 }
 
@@ -74,8 +74,6 @@ protocol RouterInterface:class {
 protocol EntityInterface {
     
 }
-
-
 
 class XYViperProtocols: NSObject {
 
