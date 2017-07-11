@@ -41,9 +41,10 @@ import UIKit
 
 // in the main method (applicationDidFinish) :
 // config every module VIPER releation in the R
-
 /// Module Interface not just between I & P , Perhaps P & P
 
+// Router owns subrouter
+// Router present viewconroller of self (UI) , or push viewcontroller of self (UI)
 
 protocol ViewInterface:class {
     var presenter:PresenterInterface? { get set }
