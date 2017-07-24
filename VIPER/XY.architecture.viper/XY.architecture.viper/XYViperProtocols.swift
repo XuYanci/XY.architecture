@@ -9,7 +9,7 @@
 import UIKit
 
 
-//// I
+//// I 
 //// E
 //// D
 /// Application Logic -- can tdd
@@ -53,6 +53,8 @@ import UIKit
 // 实体永远不会由交互器传输给展示器，取而代之，那些无行为的简单数据结构会从交互器传输到展示器那里。这就防止了那些“真正的工作”在展示器那里进行，展示器只能负责准备那些在视图里显示的数据。
 // 屏幕间的路径会在交互设计师创建的线框 (wireframes) 里进行定义。在 VIPER 中，路由是由两个部分来负责的：展示器和线框。一个线框对象包括 UIWindow，UINavigationController，UIViewController 等部分，它负责创建视图/视图控制器并将其装配到窗口中。
 // 首先建立交互器是一种符合 TDD 的自然规律。如果你首先开发交互器，紧接着是展示器，你就可以首先建立一个位于这些层的套件测试，并且为实现这是实例奠定基础
+
+// 遵守单一指责 尽量viewcontroller的module类型不应该作为参数传过去给presenter要么就将该类型作为共用的类型参数
 
 protocol ViewInterface:class {
     var presenter:PresenterInterface? { get set }
