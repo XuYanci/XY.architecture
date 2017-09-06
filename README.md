@@ -35,8 +35,12 @@ place architecture here,start learning about architecture
 [https://www.gitbook.com/book/kevinhm/functionalreactiveprogrammingonios/details](https://www.gitbook.com/book/kevinhm/functionalreactiveprogrammingonios/details)
 
 [https://gist.github.com/XuYanci/1e5162fcecce4f15fcfabd9d310b34d0](https://gist.github.com/XuYanci/1e5162fcecce4f15fcfabd9d310b34d0)
+ 
 [https://blog.uptech.team/taming-great-complexity-mvvm-coordinators-and-rxswift-8daf8a76e7fd](https://blog.uptech.team/taming-great-complexity-mvvm-coordinators-and-rxswift-8daf8a76e7fd)
+ 
 
+[https://www.linkedin.com/pulse/mvvm-coordinator-ian-dundas](https://www.linkedin.com/pulse/mvvm-coordinator-ian-dundas)
+ 
 ### VIPER ###
 
 
