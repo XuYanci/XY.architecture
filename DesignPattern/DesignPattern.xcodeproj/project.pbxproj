@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361A926A253BE1F000A21BF3 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9269253BE1F000A21BF3 /* Factory.m */; };
+		361A926E253BE96200A21BF3 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A926D253BE96200A21BF3 /* Single.m */; };
 		AD56EEA523A38668003ADF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD56EEA423A38668003ADF7D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		361A9268253BE1F000A21BF3 /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		361A9269253BE1F000A21BF3 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		361A926C253BE96200A21BF3 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		361A926D253BE96200A21BF3 /* Single.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Single.m; sourceTree = "<group>"; };
 		AD56EEA123A38668003ADF7D /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56EEA423A38668003ADF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				AD56EEA423A38668003ADF7D /* main.m */,
+				361A9268253BE1F000A21BF3 /* Factory.h */,
+				361A9269253BE1F000A21BF3 /* Factory.m */,
+				361A926C253BE96200A21BF3 /* Single.h */,
+				361A926D253BE96200A21BF3 /* Single.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361A926E253BE96200A21BF3 /* Single.m in Sources */,
+				361A926A253BE1F000A21BF3 /* Factory.m in Sources */,
 				AD56EEA523A38668003ADF7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
