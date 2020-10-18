@@ -1,5 +1,5 @@
 //
-//  Single.h
+//  ProtoType.h
 //  DesignPattern
 //
 //  Created by SUGAR Dev on 2020/10/18.
@@ -10,9 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Single : NSObject
+@interface ProtoType : NSObject
 
- 
 @end
 
 NS_ASSUME_NONNULL_END

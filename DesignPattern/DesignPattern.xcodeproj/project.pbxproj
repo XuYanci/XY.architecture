@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		361A926A253BE1F000A21BF3 /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9269253BE1F000A21BF3 /* Factory.m */; };
 		361A926E253BE96200A21BF3 /* Single.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A926D253BE96200A21BF3 /* Single.m */; };
+		361A9272253BFE6800A21BF3 /* ProtoType.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9271253BFE6800A21BF3 /* ProtoType.m */; };
+		361A9276253BFEA000A21BF3 /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 361A9275253BFEA000A21BF3 /* Builder.m */; };
 		AD56EEA523A38668003ADF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD56EEA423A38668003ADF7D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,10 @@
 		361A9269253BE1F000A21BF3 /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		361A926C253BE96200A21BF3 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		361A926D253BE96200A21BF3 /* Single.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Single.m; sourceTree = "<group>"; };
+		361A9270253BFE6800A21BF3 /* ProtoType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtoType.h; sourceTree = "<group>"; };
+		361A9271253BFE6800A21BF3 /* ProtoType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtoType.m; sourceTree = "<group>"; };
+		361A9274253BFEA000A21BF3 /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		361A9275253BFEA000A21BF3 /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
 		AD56EEA123A38668003ADF7D /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD56EEA423A38668003ADF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +50,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361A9278253BFEAA00A21BF3 /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				361A9268253BE1F000A21BF3 /* Factory.h */,
+				361A9269253BE1F000A21BF3 /* Factory.m */,
+				361A926C253BE96200A21BF3 /* Single.h */,
+				361A926D253BE96200A21BF3 /* Single.m */,
+				361A9270253BFE6800A21BF3 /* ProtoType.h */,
+				361A9271253BFE6800A21BF3 /* ProtoType.m */,
+				361A9274253BFEA000A21BF3 /* Builder.h */,
+				361A9275253BFEA000A21BF3 /* Builder.m */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		361A927A253BFEB600A21BF3 /* Behavior */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Behavior;
+			sourceTree = "<group>";
+		};
+		361A927B253BFEBB00A21BF3 /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
 		AD56EE9823A38668003ADF7D = {
 			isa = PBXGroup;
 			children = (
@@ -63,11 +98,10 @@
 		AD56EEA323A38668003ADF7D /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				361A927B253BFEBB00A21BF3 /* Structure */,
+				361A927A253BFEB600A21BF3 /* Behavior */,
+				361A9278253BFEAA00A21BF3 /* Create */,
 				AD56EEA423A38668003ADF7D /* main.m */,
-				361A9268253BE1F000A21BF3 /* Factory.h */,
-				361A9269253BE1F000A21BF3 /* Factory.m */,
-				361A926C253BE96200A21BF3 /* Single.h */,
-				361A926D253BE96200A21BF3 /* Single.m */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -128,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361A9272253BFE6800A21BF3 /* ProtoType.m in Sources */,
 				361A926E253BE96200A21BF3 /* Single.m in Sources */,
 				361A926A253BE1F000A21BF3 /* Factory.m in Sources */,
+				361A9276253BFEA000A21BF3 /* Builder.m in Sources */,
 				AD56EEA523A38668003ADF7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

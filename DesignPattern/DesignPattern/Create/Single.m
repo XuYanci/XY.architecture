@@ -13,6 +13,7 @@ static Single *shareInstance;
 @implementation Single
 
 - (Single *)share {
+    /// dispatch_once 底层是使用互斥信号实现的，线程安全
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         shareInstance = [Single new];
